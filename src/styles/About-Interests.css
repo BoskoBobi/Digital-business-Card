@@ -1,0 +1,59 @@
+.about--container {
+  width: 247px;
+  padding: 14px 35px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.about--title_text {
+  font-weight: 700;
+  font-size: 16px;
+  
+  line-height: 150%;
+  height: 21px;
+  margin-bottom: 5px;
+
+  color: #F5F5F5;
+}
+
+.about--description_text {
+  font-weight: 400;
+  font-size: 10px;
+ 
+  line-height: 150%;  
+  width: 247px;
+  height: 61px;
+
+  color: #DCDCDC;
+}
+
+.interests--container {
+  width: 247px;
+  padding: 10px 35px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.interests--title_text {
+  font-weight: 700;
+  font-size: 16px;
+
+  line-height: 150%;
+  height: 21px;
+  margin-bottom: 5px;
+
+  color: #F5F5F5;
+}
+
+.interests--description_text {
+  font-weight: 400;
+  font-size: 10px;
+
+  line-height: 150%;  
+  width: 247px;
+  height: 61px;
+
+  color: #DCDCDC;
+}

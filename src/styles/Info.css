@@ -1,0 +1,120 @@
+.header--container {
+  width: 317px;
+  margin-bottom: 33px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile--picture {
+  width: 317px;
+  height: 317px;
+  object-fit: cover;
+  object-position: 60%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.profile--name {
+  font-weight: 700;
+  font-size: 25px;
+
+  line-height: 30px;
+  margin-top: 21px;
+
+  color: #ffffff;
+}
+
+.profile--role {
+  font-weight: 400;
+  font-size: 13px;
+
+  line-height: 15px;
+  margin-top: 6px;
+
+  color: #F3BF99;
+}
+
+.profile--web {
+  font-weight: 400;
+  font-size: 10px;
+
+  line-height: 150%;
+  margin-top: 9px;
+  margin-bottom: 15px;
+
+  color: #F5F5F5;
+}
+
+.buttons {
+  width: 317px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email--button {
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+  margin-right: 8.5px;
+
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.email--logo {
+  width: 18px;
+  height: 18px;
+  border-radius: 8px;
+}
+
+.email_text {
+  font-weight: 500;
+  font-size: 14px;
+
+  color: #374151;
+}
+
+.linkedin--button {
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+  margin-left: 8.5px;
+
+  background: #5093E2;
+  border: none;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedin--logo {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+
+  background-color: #FFFFFF;
+}
+
+.linkedin_text {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+
+color: #FFFFFF;
+}
